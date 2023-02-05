@@ -48,15 +48,12 @@
     </div>
 
     <div class="whatapp-chat">
-        <a href="https://wa.me/xxx?text=I'm%20interested%20in%20your%20car%20for%20sale" target="_blank">
             <img src="{{ asset('assets/images/test.png') }}" alt="whatapp-logo" heigth="60px" width="60px">
-        </a>
     </div>
 
     <script src="{{ asset('frontend/js/jquery-3.6.1.min.js')}}" ></script>
     <script src="{{ asset('frontend/js/bootstrap.bundle.min.js')}}" ></script>
     <script src="{{ asset('frontend/js/owl.carousel.min.js')}}" ></script>
-    <script src="{{ asset('frontend/js/custom.js')}}" ></script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -101,5 +98,6 @@
 
     @yield('scripts')
 
+    <script src="{{ asset('frontend/js/custom.js')}}" ></script>
 </body>
 </html>

@@ -30,7 +30,7 @@ class WishlistController extends Controller
                 return response()->json(['status' => "Product Added to Wishlist"]);
             }
             else {
-                return response()->json(['status' => "Product doesnot exists"]);
+                return response()->json(['status' => "Product does not exists"]);
             }
         }
         else {
